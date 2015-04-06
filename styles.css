@@ -2,20 +2,23 @@
 
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
-.board{
+.board {
   background-image: url('bg.gif');
   background-color: black;
   border: 10px solid black;
 }
-.scoreboard{
+.scoreboard {
   width: 250px;
   background-color: white;
   float: right;
   margin-top: 150px;
   padding: 5px;
 }
-.player{
+.player {
   border: 20px solid red;
   border-radius: 20px;
   position: absolute;
+}
+.dir {
+  margin-bottom: 20px;
 }
